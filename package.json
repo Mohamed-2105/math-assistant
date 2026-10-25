@@ -1,0 +1,8 @@
+{
+  "name": "course-assistant",
+  "private": true,
+  "description": "KaTeX is used by katex_check.js to test the formulas before they are sent to Notion.",
+  "dependencies": {
+    "katex": "0.19.0"
+  }
+}

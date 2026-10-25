@@ -1,0 +1,14 @@
+google-genai>=2.31
+httpx>=0.28
+pydantic>=2.14
+python-dotenv>=1.0
+
+# Optional: reading .html labs with a real HTML parser (without it, tags are stripped with a regular expression)
+# beautifulsoup4>=4.12
+
+# Optional: only for PDF_VIA_GEMINI = False in settings.py, which reads the text of PDFs locally.
+# pymupdf4llm
+
+# Optional: OCR for scanned PDFs, used only when PDF_VIA_GEMINI is False and PDF_AVEC_OCR is True (not tested here).
+# rapidocr
+# onnxruntime
